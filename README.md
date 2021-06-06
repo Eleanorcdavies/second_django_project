@@ -2,7 +2,7 @@
 Assessment for the django lesson
 
 #screenshot
-![Screenshot](Screenshot of my Django App.PNG)
+![Screenshot](ScreenshotOfMyDjangoApp.PNG)
 
 
 #I was told I didn't need to use a virtual environment, and I think that might be why it isn't working
