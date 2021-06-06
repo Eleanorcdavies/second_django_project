@@ -1,6 +1,14 @@
-from django.http import HttpResponse
+from django.http import JsonResponse
 
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Eleanor Davies Django Assessmentdata = {\n   Name  Eleanor Davies,\n    Track  Backend(Python),\n    Message  Hi mentor, thank you for teaching me. \n\n}")
+    return JsonResponse(data = {
+
+   Name  Oluwafemi Adenuga,
+
+    Track  Backend(Python),
+
+    Message  Hi, mentor, youre doing a great job
+
+})
